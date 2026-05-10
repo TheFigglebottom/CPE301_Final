@@ -9,7 +9,7 @@
 // D8  = RGB red
 // D9  = RGB green
 // D10 = RGB blue
-// D11 = L293D motor enable
+// D11 = motor enable
 //
 // Button wiring:
 // D2 ---- start button ---- GND
@@ -70,7 +70,7 @@ volatile unsigned char *portH = (unsigned char *)0x102;
 // D8  = PH5 = RGB red
 // D9  = PH6 = RGB green
 // D10 = PB4 = RGB blue
-// D11 = PB5 = L293D motor enable
+// D11 = PB5 = motor enable
 // D2  = PE4 = start button interrupt
 // D3  = PE5 = reset button
 // D4  = PG5 = off button
